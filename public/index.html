@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="23 리액트 기초"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,10 +24,28 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>23리액트기초</title>
+    <style>
+      .txtRed{color: red;}
+      #header{
+        border:1px solid grey;
+        height: 150px;
+      }
+      #content{
+        border:1px solid grey;
+        height: 600px;
+      }
+      #footer{
+        border:1px solid grey;
+        height: 150px;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="header"></div>
+    <div id="content"></div>
+    <div id="footer"></div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
